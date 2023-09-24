@@ -21,7 +21,6 @@ ul a.active {
 
 .darker-overlay {
     position: absolute;
-    bottom: 0;
     height: 15%;
     background: rgba(11, 11, 11, 0.50);
   }
