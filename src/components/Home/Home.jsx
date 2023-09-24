@@ -16,7 +16,7 @@ const Home = () => {
         <div>
 
             {/* Banner Section */}
-            <section className="hero h-[600px] mt-6 relative" style={{ backgroundImage: 'url(https://i.ibb.co/wNTRQNn/volunteers-charity.jpg)' }}>
+            <section className="hero h-[600px] relative" style={{ backgroundImage: 'url(https://i.ibb.co/wNTRQNn/volunteers-charity.jpg)' }}>
 
                 <div className="overlays"></div>
                 <div className="hero-content text-center text-neutral-content">
@@ -32,7 +32,7 @@ const Home = () => {
             </section>
 
             {/* Donation section */}
-            <section>
+            <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 pt-24 pb-44 w-11/12 md:w-full mx-auto">
                 {
                     donations.map(donation => <Donation
                         key={donation.id}

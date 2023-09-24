@@ -1,134 +1,134 @@
 [
   {
     "id": 1,
-    "picture": "https://i.ibb.co/CmPPnYD/health.jpg",
-    "title": "Healthcare for Vulnerable Communities",
+    "picture": "https://i.ibb.co/pX6mPD7/health3.jpg",
+    "title": "Healthcare for Communities",
     "category": "Health",
     "category_bg": "#1abc9c",
     "card_bg": "#a3d1d1",
     "text_button_bg": "#16a085",
-    "description": "Support healthcare programs to improve the well-being of underserved communities in the Health category.",
+    "description": "Support healthcare programs to improve the well-being of underserved communities in the Health category. Your generous contribution will help us provide essential medical services to those who need it most. By joining our cause, you play a vital role in promoting a healthier and happier future for individuals and families in vulnerable situations. Together, we can make a significant impact on people's lives, ensuring access to quality healthcare for all.",
     "price": 250
   },
   {
     "id": 2,
-    "picture": "https://i.ibb.co/pwyJXY0/food.jpg",
+    "picture": "https://i.ibb.co/L8SRP3t/food3.jpg",
     "title": "Nutrition Assistance Program",
     "category": "Food",
     "category_bg": "#e74c3c",
     "card_bg": "#f5b7b1",
     "text_button_bg": "#d35400",
-    "description": "Contribute to a nutrition assistance program that ensures individuals receive balanced meals in the Food category.",
-    "price": 270
+    "description": "Help students access quality education through scholarships and resources in the Education category. Your support empowers bright minds to overcome barriers and achieve their academic dreams. By joining our initiative, you contribute to a brighter future where education knows no bounds. Together, we can create a world where every child has the opportunity to learn, grow, and succeed.",
+    "price": 280
   },
   {
     "id": 3,
-    "picture": "donation4.jpg",
+    "picture": "https://i.ibb.co/kh4ysRC/clothes2.jpg",
     "title": "Warm Clothing Drive",
     "category": "Clothing",
     "category_bg": "#8e44ad",
     "card_bg": "#d7bde2",
     "text_button_bg": "#9b59b6",
-    "description": "Support a drive providing warm clothing to those in need during winter in the Clothing category.",
+    "description": "Support a drive providing warm clothing to those in need during winter in the Clothing category. Your generous contribution ensures that individuals and families stay warm and safe during the cold months. Join us in spreading warmth and comfort to those facing harsh weather conditions, making their winter a little brighter.",
     "price": 220
   },
   {
     "id": 4,
-    "picture": "https://i.ibb.co/Thgyk5n/education.jpg",
+    "picture": "https://i.ibb.co/jkXc1Bc/education2.jpg",
     "title": "Education Access Initiative",
     "category": "Education",
     "category_bg": "#3498db",
     "card_bg": "#ecf0f1",
     "text_button_bg": "#2ecc71",
-    "description": "Help students access quality education through scholarships and resources in the Education category.",
-    "price": 280
+    "description": "Contribute to food security initiatives that ensure families have access to nutritious meals in the Food category. Your support helps provide essential food items, reducing hunger and promoting well-being. Join us in the fight against food insecurity, and together, we can build a world where no one goes to bed hungry, ensuring that every family has enough to eat.",
+    "price": 270
   },
   {
     "id": 5,
-    "picture": "https://i.ibb.co/Thgyk5n/education.jpg",
-    "title": "Educational Resources for All",
-    "category": "Education",
-    "category_bg": "#3498db",
-    "card_bg": "#ecf0f1",
-    "text_button_bg": "#2ecc71",
-    "description": "Ensure access to educational resources for all students, regardless of their background, in the Education category.",
-    "price": 210
-  },
-  {
-    "id": 6,
-    "picture": "donation12.jpg",
+    "picture": "https://i.ibb.co/kh4ysRC/clothes2.jpg",
     "title": "Winter Clothing Drive",
     "category": "Clothing",
     "category_bg": "#8e44ad",
     "card_bg": "#d7bde2",
     "text_button_bg": "#9b59b6",
-    "description": "Contribute to a drive providing warm clothing to those in need during the cold winter months in the Clothing category.",
-    "price": 300
+    "description": "Provide emergency medical assistance and critical care to individuals in the Health category. Your contribution saves lives by ensuring immediate medical attention to those in crisis. Join us in making a difference in critical situations, where every second counts, and together, we can provide hope and healing to those facing medical emergencies.",
+    "price": 290
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/jkXc1Bc/education2.jpg",
+    "title": "Educational Resources for All",
+    "category": "Education",
+    "category_bg": "#3498db",
+    "card_bg": "#ecf0f1",
+    "text_button_bg": "#2ecc71",
+    "description": "Ensure access to healthcare services for all communities, regardless of their socio-economic status, in the Health category. Your support promotes health equity and improves the overall well-being of vulnerable populations. Join us in creating a healthier future where everyone has the right to quality healthcare, bridging the gap and making healthcare accessible for all.",
+    "price": 240
   },
   {
     "id": 7,
-    "picture": "donation8.jpg",
+    "picture": "https://i.ibb.co/kh4ysRC/clothes2.jpg",
     "title": "Clothing and Shelter Assistance",
     "category": "Clothing",
     "category_bg": "#8e44ad",
     "card_bg": "#d7bde2",
     "text_button_bg": "#9b59b6",
-    "description": "Support individuals in need with clothing and shelter assistance in the Clothing category.",
-    "price": 260
+    "description": "Help sustain a community food pantry that provides essential food items to individuals and families in the Food category. Your contribution ensures that no one goes hungry, and everyone has access to nutritious food. Join us in building a stronger and healthier community by supporting food security efforts, and together, we can make a difference in the fight against hunger.",
+    "price": 230
   },
   {
     "id": 8,
-    "picture": "https://i.ibb.co/CmPPnYD/health.jpg",
+    "picture": "https://i.ibb.co/pX6mPD7/health3.jpg",
     "title": "Healthcare Access for All",
     "category": "Health",
     "category_bg": "#1abc9c",
     "card_bg": "#a3d1d1",
     "text_button_bg": "#16a085",
-    "description": "Ensure access to healthcare services for all communities, regardless of their socio-economic status, in the Health category.",
+    "description": "Ensure access to healthcare services for all communities, regardless of their socio-economic status, in the Health category. Your support promotes health equity and improves the overall well-being of vulnerable populations. Join us in creating a healthier future where everyone has the right to quality healthcare, bridging the gap and making healthcare accessible for all.",
     "price": 240
   },
   {
     "id": 9,
-    "picture": "https://i.ibb.co/CmPPnYD/health.jpg",
-    "title": "Emergency Medical Assistance",
-    "category": "Health",
-    "category_bg": "#1abc9c",
-    "card_bg": "#a3d1d1",
-    "text_button_bg": "#16a085",
-    "description": "Provide emergency medical assistance and critical care to individuals in the Health category.",
-    "price": 290
-  },
-  {
-    "id": 10,
-    "picture": "https://i.ibb.co/pwyJXY0/food.jpg",
+    "picture": "https://i.ibb.co/L8SRP3t/food3.jpg",
     "title": "Community Food Pantry Support",
     "category": "Food",
     "category_bg": "#e74c3c",
     "card_bg": "#f5b7b1",
     "text_button_bg": "#d35400",
-    "description": "Help sustain a community food pantry that provides essential food items to individuals and families in the Food category.",
+    "description": "Help sustain a community food pantry that provides essential food items to individuals and families in the Food category. Your contribution ensures that no one goes hungry, and everyone has access to nutritious food. Join us in building a stronger and healthier community by supporting food security efforts, and together, we can make a difference in the fight against hunger.",
     "price": 230
   },
   {
+    "id": 10,
+    "picture": "https://i.ibb.co/pX6mPD7/health3.jpg",
+    "title": "Emergency Medical Assistance",
+    "category": "Health",
+    "category_bg": "#1abc9c",
+    "card_bg": "#a3d1d1",
+    "text_button_bg": "#16a085",
+    "description": "Provide emergency medical assistance and critical care to individuals in the Health category. Your contribution saves lives by ensuring immediate medical attention to those in crisis. Join us in making a difference in critical situations, where every second counts, and together, we can provide hope and healing to those facing medical emergencies.",
+    "price": 290
+  },
+  {
     "id": 11,
-    "picture": "https://i.ibb.co/pwyJXY0/food.jpg",
+    "picture": "https://i.ibb.co/L8SRP3t/food3.jpg",
     "title": "Food Security for Families",
     "category": "Food",
     "category_bg": "#e74c3c",
     "card_bg": "#f5b7b1",
     "text_button_bg": "#d35400",
-    "description": "Contribute to food security initiatives that ensure families have access to nutritious meals in the Food category.",
+    "description": "Contribute to food security initiatives that ensure families have access to nutritious meals in the Food category. Your support helps provide essential food items, reducing hunger and promoting well-being. Join us in the fight against food insecurity, and together, we can build a world where no one goes to bed hungry, ensuring that every family has enough to eat.",
     "price": 270
   },
   {
     "id": 12,
-    "picture": "https://i.ibb.co/Thgyk5n/education.jpg",
+    "picture": "https://i.ibb.co/jkXc1Bc/education2.jpg",
     "title": "Scholarships for Bright Minds",
     "category": "Education",
     "category_bg": "#3498db",
     "card_bg": "#ecf0f1",
     "text_button_bg": "#2ecc71",
-    "description": "Provide scholarships to support talented students in pursuing higher education in the Education category.",
-    "price": 200
+    "description": "Provide emergency medical assistance and critical care to individuals in the Health category. Your contribution saves lives by ensuring immediate medical attention to those in crisis. Join us in making a difference in critical situations, where every second counts, and together, we can provide hope and healing to those facing medical emergencies.",
+    "price": 290
   }
 ]
