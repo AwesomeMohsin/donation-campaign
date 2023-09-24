@@ -23,10 +23,15 @@ const Donations = () => {
     }, [donations])
 
     return (
-        <div className="grid md:grid-cols-2 gap-6">
+        <div>
+            <div className="grid md:grid-cols-2 gap-6">
             {
                 donatedItem.map(donate => <DonatedItem key={donate.id} donate={donate}></DonatedItem>)
             }
+            </div>
+            <div>
+                <button>See All</button>
+            </div>
         </div>
     );
 };
