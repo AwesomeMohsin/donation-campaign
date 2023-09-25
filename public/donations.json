@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "picture": "https://i.ibb.co/L8SRP3t/food3.jpg",
+    "picture": "https://i.ibb.co/rdy2v9J/food4.jpg",
     "title": "Nutrition Assistance Program",
     "category": "Food",
     "category_bg": "#fdd2c4",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "picture": "https://i.ibb.co/kh4ysRC/clothes2.jpg",
-    "title": "Warm Clothing Drive",
+    "title": "Warming Clothing Drive",
     "category": "Clothing",
     "category_bg": "#d4ecc2",
     "card_bg": "#ebf6e2",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "picture": "https://i.ibb.co/tCQv7s5/clothes.jpg",
+    "picture": "https://i.ibb.co/PCQcLz1/clothes.jpg",
     "title": "Winter Clothing Drive",
     "category": "Clothing",
     "category_bg": "#d4ecc2",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "picture": "https://i.ibb.co/jkXc1Bc/education2.jpg",
+    "picture": "https://i.ibb.co/cFSx1th/education.png",
     "title": "Educational Resources for All",
     "category": "Education",
     "category_bg": "#ffc4c5",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "picture": "https://i.ibb.co/kh4ysRC/clothes2.jpg",
+    "picture": "https://i.ibb.co/hHdHJCR/clothes3.jpg",
     "title": "Clothing and Shelter Assistance",
     "category": "Clothing",
     "category_bg": "#d4ecc2",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "picture": "https://i.ibb.co/CmPPnYD/health.jpg",
+    "picture": "https://i.ibb.co/g3LN0VZ/health.jpg",
     "title": "Healthcare Access for All",
     "category": "Health",
     "category_bg": "#AEC7FF",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "picture": "https://i.ibb.co/L8SRP3t/food3.jpg",
+    "picture": "https://i.ibb.co/3mgkbX2/food2.jpg",
     "title": "Community Food Pantry Support",
     "category": "Food",
     "category_bg": "#fdd2c4",
@@ -122,7 +122,7 @@
   },
   {
     "id": 12,
-    "picture": "https://i.ibb.co/jkXc1Bc/education2.jpg",
+    "picture": "https://i.ibb.co/TbPBswp/education3.jpg",
     "title": "Scholarships for Bright Minds",
     "category": "Education",
     "category_bg": "#ffc4c5",

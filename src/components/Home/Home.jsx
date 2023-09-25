@@ -77,7 +77,7 @@ const Home = () => {
             </section>
 
             {/* Donation section */}
-            <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 pt-24 pb-44 w-11/12 md:w-full mx-auto">
+            <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 pt-24 pb-44 w-11/12 lg:w-full mx-auto">
 
                 {
                     displayDonations.map(donation => <Donation
