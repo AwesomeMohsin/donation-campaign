@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import DonationDetails from "../DonationDetails/DonationDetails";
 
 const DonatedItem = ({ donate }) => {
-    console.log(donate);
     const { id, picture, title, category, category_bg, card_bg, text_button_bg, description, price } = donate;
 
     
@@ -17,7 +16,7 @@ const DonatedItem = ({ donate }) => {
                 <h2 className="card-title text-2xl">{title}</h2>
                 <h4>${price}</h4>
                 <Link to={`/donation/${id}`}>
-                <button className="btn mt-6 md:w-2/5 md:text-lg">View details</button>
+                <button className="btn mt-6 lg:w- lg:text-lg">View details</button>
                 </Link>
                        
             </div>

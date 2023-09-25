@@ -4,13 +4,57 @@ import Donation from "../Donation/Donation";
 const Home = () => {
 
     const [donations, setDonations] = useState([]);
+    const [searchData, setSearchData] = useState('');
+    const [displayDonations, setDisplayDonations] = useState([])
+
 
     useEffect(() => {
+
+        if (!handleDonationFilter()) {
+            fetch('donations.json')
+                .then(res => res.json())
+                .then(data => setDisplayDonations(data))
+        }
+
         fetch('donations.json')
             .then(res => res.json())
             .then(data => setDonations(data))
 
+
     }, [])
+
+
+    const handleSearchInput = () => {
+        const getInput = document.getElementById('search-field');
+        const inputText = getInput.value;
+        setSearchData(inputText.toLowerCase());
+    }
+
+    const handleDonationFilter = filter => {
+
+        if (filter === 'food') {
+            const foodCategory = donations.filter(donation => donation.category === 'Food');
+            setDisplayDonations(foodCategory);
+        }
+        else if (filter === 'education') {
+            const educationCategory = donations.filter(donation => donation.category === 'Education');
+            setDisplayDonations(educationCategory);
+        }
+        else if (filter === 'health') {
+            const healthCategory = donations.filter(donation => donation.category === 'Health');
+            setDisplayDonations(healthCategory);
+        }
+        else if (filter === 'clothing') {
+            const clothingCategory = donations.filter(donation => donation.category === 'Clothing');
+            setDisplayDonations(clothingCategory);
+        }
+        else {
+            setDisplayDonations(donations)
+        }
+
+    }
+
+
 
     return (
         <div>
@@ -24,17 +68,19 @@ const Home = () => {
                         <h1 className="mb-5 text-5xl font-bold text-black">I Grow By Helping People In Need</h1>
 
                         <div className="join rounded-lg pt-10">
-                            <input className="input input-bordered join-item text-black" placeholder="Search here..." />
-                            <button className="btn join-item bg-[#FF444A] text-white">Search</button>
+                            <input onChange={handleSearchInput} id="search-field" className="input input-bordered join-item text-black" placeholder="Search here..." />
+                            <button onClick={() => handleDonationFilter(searchData)} className="btn join-item bg-[#FF444A] text-white">Search</button>
                         </div>
                     </div>
+
                 </div>
             </section>
 
             {/* Donation section */}
             <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 pt-24 pb-44 w-11/12 md:w-full mx-auto">
+
                 {
-                    donations.map(donation => <Donation
+                    displayDonations.map(donation => <Donation
                         key={donation.id}
                         donation={donation}></Donation>)
                 }
