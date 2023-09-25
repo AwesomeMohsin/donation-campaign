@@ -9,8 +9,8 @@ const NavBar = () => {
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 gap-4 md:gap-12 text-lg">
                     <NavLink to='/'>Home</NavLink>
-                    <NavLink to='donation'>Donation</NavLink>
-                    <NavLink to='statistics'>Statistics</NavLink>
+                    <NavLink to='/donations'>Donation</NavLink>
+                    <NavLink to='/statistics'>Statistics</NavLink>
                 </ul>
             </div>
         </div>
