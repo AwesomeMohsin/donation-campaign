@@ -1,8 +1,12 @@
-# React + Vite
+# Donation Campaign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Features
 
-Currently, two official plugins are available:
+- Category-Based Donation Card Search: Easily search for donation cards by specifying donation category names.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Donation History Tracking: Keep a comprehensive record of your donations on a dedicated donation page. Enhance your donation experience with the ability to explore contribution details by simply clicking on a dedicated "See Details" button.
+
+- Visual Donation Insights with Pie Charts: Gain valuable insights into your giving with interactive pie charts. Visualize the proportion of your total donations alongside the number of donation options remaining for your consideration on the statistics page.
+
+
+### Live Link: https://awesome-campaign-donation.surge.sh/
