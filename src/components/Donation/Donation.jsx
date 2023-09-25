@@ -9,11 +9,11 @@ const Donation = ({ donation }) => {
 
         <Link to={`/donation/${id}`}>
 
-            <div className="card card-compact shadow-xl" >
+            <div style={{backgroundColor: card_bg}} className="card card-compact shadow-xl" >
                 <figure><img className="" src={picture} alt="picture" /></figure>
                 <div className="card-body">
-                    <p className="text-sm font-medium">{category}</p>
-                    <h2 className="font-semibold text-xl">{title}</h2>
+                    <p style={{backgroundColor: category_bg, color: text_button_bg}} className="text-sm font-medium max-w-fit py-1 px-2 rounded-md">{category}</p>
+                    <h2 style={{color: text_button_bg}} className="font-semibold text-xl">{title}</h2>
                 </div>
             </div>
             
