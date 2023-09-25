@@ -8,14 +8,16 @@ const DonatedItem = ({ donate }) => {
     
 
     return (
-        <div className="card card-side bg-base-100 shadow-xl">
-            <figure className=""><img className="h-[200px] w-[220px]" src={picture} alt="picture" /></figure>
+        <div className="card card-side bg-base-100 shadow-xl w-11/12 mx-auto">
+            <figure>
+                <img className=" md:h-[200px] md:w-[220px]" src={picture} alt="picture" />
+            </figure>
             <div className="card-body">
                 <p className="text-sm">{category}</p>
                 <h2 className="card-title text-2xl">{title}</h2>
                 <h4>${price}</h4>
                 <Link to={`/donation/${id}`}>
-                <button className="btn mt-6 w-2/5 text-lg">View details</button>
+                <button className="btn mt-6 md:w-2/5 md:text-lg">View details</button>
                 </Link>
                        
             </div>
