@@ -1,24 +1,43 @@
 import { PieChart } from 'recharts';
-import { percantageCalculation } from '../../Utility/statisticPercantage';
+import { useLoaderData } from 'react-router-dom';
+import { percantageCalculation } from '../../Utility/statistics';
+import { Chart } from "react-google-charts";
 
 const Statistics = () => {
+    const donations = useLoaderData();
+    // console.log(donations);
 
-    const gg = percantageCalculation()
-        .then(data => {
-            const set = data;
-            // console.log(set);
-            return (set);
-        })
+    const donated = parseFloat(percantageCalculation({ donations }));
+    const remaining = 100 - donated;
+    console.log(donated, remaining);
 
-    console.log(gg);
+
+    const data = [
+        ["Donation", "Percantage"],
+        ["Your Donation", donated],
+        ["Total Donation", remaining],
+
+
+    ];
+
+    const options = {
+        colors: ['#00C49F', '#FF444A'],
+        legend: { position: "bottom" }, 
+    };
+
+
+
     return (
-        <div>
-            <h2>Statistics page</h2>
+        <div className='mt-[-80px]'>
 
+            <Chart
+                chartType="PieChart"
+                data={data}
+                options={options}
+                width={"100%"}
+                height={"700px"}
+            />
 
-            <PieChart width={400} height={400}>
-
-            </PieChart>
 
         </div>
     );
