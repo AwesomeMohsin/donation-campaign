@@ -9,13 +9,13 @@ const getStoredDonatedItemLength = () => {
         return 0;
     }
 }
-const donatedItemLength = getStoredDonatedItemLength();
 
 
 
-const percantageCalculation = ({donations}) => {
+const percentageCalculation = ({donations}) => {
 
     // calculation
+    const donatedItemLength = getStoredDonatedItemLength();
     const divide = donatedItemLength / donations.length;
     const donated = divide * 100;
 
@@ -24,4 +24,4 @@ const percantageCalculation = ({donations}) => {
 }
 
 
-export{percantageCalculation}
+export{percentageCalculation}

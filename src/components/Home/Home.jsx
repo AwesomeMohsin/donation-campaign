@@ -11,12 +11,12 @@ const Home = () => {
     useEffect(() => {
 
         if (!handleDonationFilter()) {
-            fetch('donations.json')
+            fetch('/data.json')
                 .then(res => res.json())
                 .then(data => setDisplayDonations(data))
         }
 
-        fetch('donations.json')
+        fetch('/data.json')
             .then(res => res.json())
             .then(data => setDonations(data))
 
